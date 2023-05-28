@@ -1,0 +1,162 @@
+/*  Colores
+    azul oscuro = #510038
+    azul claro  = #F8FCFD
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Monserrat', sans-serif; 
+}
+
+.navbar {
+    background-color:  rgb(14, 69, 95);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 25px;
+}
+
+.menu { 
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 40px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.979);    
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-content {
+    margin-right: 40px;
+}
+
+.tittle {
+    font-size: 100px;
+    color: white;
+}
+
+.subtittle {
+    margin-top: -20px;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+.main-info {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-info-tittle {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color:  rgb(26, 22, 22);
+    font-weight: bold;
+    margin-top: 250px;
+
+}
+
+.about {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FCFD;
+    width: 70%;
+    gap: 50px;
+}
+
+h4 {
+    color: rgb(26, 22, 22);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: rgb(26, 22, 22);
+    margin-top: 20px;
+}
+
+.gallery {
+    margin-top: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-items {
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery-items img{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.footer {
+    background-color:  rgb(26, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 120px;
+}
+
+.footer h5{
+    font-weight: 100;
+}
+
